@@ -9,18 +9,35 @@
 
 /* header section styles */
 .first-landing-page {
-    display: flex;
+    display: inline-flex;
     background: rgba(229, 84, 115, 0.10);
-    justify-content: center;
-    padding: 0px 220px;
+    padding: 0px 190px;
+    gap: 90px;
 }
+
+.flp-left {
+    padding-top: 165px;
+
+
+}
+
+
+
+
+
 
 
 .flp-title {
 
     color: #272727;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 800;
+    line-height: normal;
+    font-style: normal;
+    font-family: Lato;
+
+
+
 }
 
 
@@ -28,6 +45,7 @@
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     line-height: 30px;
+    margin: 25px 0px 25px 0px;
 }
 
 .btn-primary {
@@ -38,4 +56,88 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* Right part */
+
+.flp-right img {
+    width: 517px;
+    padding-top: 40px;
+
+
+}
+
+/* second page styles */
+.second-landing-page {
+    margin-top: 185px;
+}
+
+.slp-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.slp-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: -17px;
+
+
+}
+
+.fp-with-background {
+    display: inline-flex;
+    gap: 24px;
+    align-items: center;
+    margin-left: 190px;
+    margin-left: 190px;
+    margin-top: 40px;
+    margin-top: 40px;
+}
+
+
+
+.flowers-picture img {}
+
+.fp-f {
+    width: 292px;
+    height: 389px;
+    margin: 10px;
+    padding-top: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.fp-s {
+    width: 283px;
+    height: 389px;
+    margin: 10px;
+    padding-top: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.fp-t {
+    width: 283px;
+    height: 389px;
+    margin: 10px;
+    padding-top: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
