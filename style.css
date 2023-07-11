@@ -10,6 +10,78 @@
 
 
 /* header section styles */
+.navbar-logo {}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 230, 230, 0.61);
+    position: fixed;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    height: 60px;
+    font-family: 'Lato', sans-serif;
+
+
+
+}
+
+.navbar-list {
+    gap: 25px;
+    font-weight: 900;
+    padding-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 150px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.nav-bar:hover {
+    color: #E55473;
+}
+
+.nav-bar {
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 22px;
+    text-decoration: none;
+    color: rgb(112, 99, 99);
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+nav {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.nav-title {
+    color: #E55473;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-left: 180px;
+
+
+}
+
+.nav-title-color {
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
 .first-landing-page {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -71,7 +143,7 @@
 
 .flp-right img {
     width: 517px;
-    padding-top: 40px;
+    padding-top: 68px;
     padding-bottom: 0px;
     margin-bottom: -3px;
 
