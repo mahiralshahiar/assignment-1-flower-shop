@@ -141,3 +141,47 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+
+
+.fp-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    list-style: none;
+    margin-top: 12px;
+}
+
+/* 2nd landing page part-2 */
+.slpp2 {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 112px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 80px;
+
+}
+
+.slpp2-description {
+    padding-bottom: 50px;
+    justify-content: center;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.slapp2-container {
+    text-align: center;
+}
+
+/* 3rd landing page  */
