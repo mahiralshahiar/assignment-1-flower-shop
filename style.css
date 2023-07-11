@@ -12,7 +12,10 @@
     display: inline-flex;
     background: rgba(229, 84, 115, 0.10);
     padding: 0px 190px;
-    gap: 90px;
+    padding-bottom: 10px;
+
+
+
 }
 
 .flp-left {
@@ -63,6 +66,8 @@
 .flp-right img {
     width: 517px;
     padding-top: 40px;
+    align-items: baseline;
+
 
 
 }
@@ -96,22 +101,27 @@
 }
 
 .fp-with-background {
-    display: inline-flex;
-    gap: 24px;
+    display: flex;
+    gap: 7px;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 190px;
-    margin-left: 190px;
+    margin-right: 190px;
+    margin-left: 170px;
     margin-top: 40px;
     margin-top: 40px;
+
 }
 
 
 
-.flowers-picture img {}
+.flowers-picture img {
+    width: 72%;
+    height: 389px;
+
+}
 
 .fp-f {
-    width: 292px;
-    height: 389px;
+
     margin: 10px;
     padding-top: 80px;
     padding-left: 48px;
@@ -123,10 +133,10 @@
 .fp-s {
     width: 283px;
     height: 389px;
-    margin: 10px;
+    margin-left: 45px;
     padding-top: 80px;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 22px;
+    padding-right: 22px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
@@ -271,6 +281,15 @@
 
 .section-5 {
     background-image: url('Asset/Rectangle\ 9.png');
+    /* position: absolute; */
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 76%;
+    margin-top: 100px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    margin-left: 160px;
 
 
 }
@@ -281,6 +300,8 @@
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 100px;
+
 }
 
 .section-5-description {
@@ -308,6 +329,68 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
+    height: 39px;
+    width: 530px;
 
+}
+
+.btn-last {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* footer styles */
+
+.f-title {
+
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.f-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.f-title-color {
+    color: #FFFFFF;
+}
+
+footer {
+    background: #111010;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.f-container {
+    text-align: center;
+    padding-bottom: 100px;
 }
