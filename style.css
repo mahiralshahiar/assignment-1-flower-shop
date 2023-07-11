@@ -3,7 +3,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+
 }
 
 
@@ -274,12 +276,12 @@
 .landing-page-4-images {
     display: flex;
     justify-content: center;
-    width: 68%;
+    width: 70%;
     margin-left: 220px;
 }
 
 .landing-page-4-images img {
-    padding: 10px;
+    padding: 8px;
     height: 318px;
 
 }
@@ -297,7 +299,7 @@
     margin-top: 100px;
     border-radius: 8px;
     margin-bottom: 100px;
-    margin-left: 160px;
+    margin-left: 180px;
 
 
 }
@@ -354,6 +356,7 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    margin-left: 13px;
 }
 
 /* footer styles */
@@ -428,35 +431,50 @@ footer {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #E55473;
+    /* border: 5px solid #E55473; */
 }
 
 .review-1 {
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+    width: 250px;
+
 }
 
 .review-container {
     padding-top: 30px;
     display: flex;
-    justify-content: center;
     padding-bottom: 70px;
-    gap: 35px;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+
+
+
 
 }
 
 .review {
     background-color: #E554731A;
+
 }
 
 .profile-title {
     padding-top: 25px;
     padding-bottom: 14px;
+    color: #E55473;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 /* .profile-description {
     text-align: center;
+} */
+/* 
+
+#alvi {
+    padding-bottom: 29px;
 } */
