@@ -81,7 +81,7 @@
 
 /* second page styles */
 .second-landing-page {
-    margin-top: 185px;
+    margin-top: 150px;
 }
 
 .slp-title {
@@ -92,6 +92,11 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
+}
+
+.titlefor {
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -276,13 +281,15 @@
 .landing-page-4-images {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 71%;
     margin-left: 220px;
 }
 
 .landing-page-4-images img {
     padding: 8px;
     height: 318px;
+    border-radius: 25px;
+    border: transparent;
 
 }
 
@@ -452,6 +459,7 @@ footer {
     gap: 70px;
     align-items: center;
     justify-content: center;
+    padding-right: 17px;
 
 
 
