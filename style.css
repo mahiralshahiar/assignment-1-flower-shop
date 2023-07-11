@@ -185,3 +185,129 @@
 }
 
 /* 3rd landing page  */
+.landing-page3-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 150px;
+
+}
+
+.landing-page3-left {
+
+    margin-top: 200PX;
+    text-align: center;
+}
+
+.landing-page3-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.landing-page3-title-off {
+    color: #E55473;
+}
+
+.landing-page3-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+
+.landing-page3-img {
+    margin-top: 100px;
+}
+
+/* Page 4 */
+
+.landing-page-4-title {
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.landing-page-4-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 23px;
+}
+
+.landing-page-4-images {
+    display: flex;
+    justify-content: center;
+    width: 68%;
+    margin-left: 220px;
+}
+
+.landing-page-4-images img {
+    padding: 10px;
+    height: 318px;
+
+}
+
+/* 5th pageee */
+
+
+.section-5 {
+    background-image: url('Asset/Rectangle\ 9.png');
+
+
+}
+
+.section-5-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-5-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.section-5 input {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
